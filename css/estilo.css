@@ -1,0 +1,118 @@
+/* CODIGO DOS COMENTARIOS  */
+
+.comentarios {
+	display: grid;
+	place-items: center;
+  border: #000;
+}
+
+.nome{
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: #000;
+  font-size: 150%;
+}
+
+/* .comentarios-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.comentarios-header:after{
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: rgb(0, 0, 0);
+}
+
+.comentarios-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+*/
+
+.comentarios-header:after{
+  content: '';
+  height: 3px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 100px);
+  background: rgb(0, 0, 0);
+}
+
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 15px;
+    margin: 0 auto 80px auto;
+}
+
+/*.content p {
+  text-align: justify;
+}
+*/
+
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+    text-align: center;   
+}
+
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid #f7598d;
+}
+
+.content{
+    font-size: 18px;
+}
+
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+  color: #f7598d;
+}
+
+.fundoComentarios{
+  width: 100%;
+  background-image: url(../images/baixados.jpg);
+  text-align: center;
+}
+
+@media (max-width:767px){  
+}
+
+.loca{
+  margin-top: 0;
+  background-color: #f7598d;
+  background-image: url(../images/oi.jpg);
+  text-align: center;
+  border-radius: 0;
+  box-shadow: #000000;
+  width: 100%;
+  }  
+
+  iframe{
+    margin: 2%;
+    text-align: center;
+    width: 90%;
+  }

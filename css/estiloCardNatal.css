@@ -1,0 +1,161 @@
+@font-face {
+	font-family: 'Astral Sisters';
+	src: url("/fonts/Astral Sisters.ttf") format('truetype');;
+}
+
+.card-img-top {
+    height: 220px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-color: #095d40;
+}
+
+.div-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.natal{
+    background: #d8bf9f; 
+}
+
+.titulo-natal{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Astral Sisters, cursive;
+    color: #ae1926;
+}
+
+.card {
+    background: #ae1926;
+    border-radius: 15px;
+    border: 6px solid #095d40;
+    margin: 20px;
+}
+
+.titulo-card {
+    color: #dfcaae;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#botao-natal {
+    background: #095d40;
+    border: #095d40;
+    font-weight: bold;
+    color: #dfcaae;
+}
+
+#botao-natal:hover{
+    background: #dfcaae;
+    border: #dfcaae;
+    color: #095d40;
+}
+
+.card-body {
+    background: #ae1926;
+    border-top: 6px solid #095d40;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: center;
+}
+
+.hr-natal {
+    height: 5px;
+    background: #095d40;
+    margin: 0;
+}
+
+.dec-natal{
+    width: 100%;
+    margin-bottom: 30px;
+}@font-face {
+	font-family: 'Astral Sisters';
+	src: url("/fonts/Astral Sisters.ttf") format('truetype');;
+}
+
+.card-img-top {
+    height: 220px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-color: #095d40;
+}
+
+.div-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.natal{
+    background: #d8bf9f; 
+}
+
+.titulo-natal{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Astral Sisters, cursive;
+    color: #ae1926;
+}
+
+.card {
+    background: #ae1926;
+    border-radius: 15px;
+    border: 6px solid #095d40;
+    margin: 20px;
+}
+
+.titulo-card {
+    color: #dfcaae;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#botao-natal {
+    background: #095d40;
+    border: #095d40;
+    font-weight: bold;
+    color: #dfcaae;
+}
+
+#botao-natal:hover{
+    background: #dfcaae;
+    border: #dfcaae;
+    color: #095d40;
+}
+
+.card-body {
+    background: #ae1926;
+    border-top: 6px solid #095d40;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: center;
+}
+
+.hr-natal {
+    height: 5px;
+    background: #095d40;
+    margin: 0;
+}
+
+.dec-natal{
+    width: 100%;
+    margin-bottom: 30px;
+}
